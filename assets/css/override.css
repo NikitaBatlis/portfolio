@@ -15,8 +15,11 @@
   z-index: 999;
 }
 
-.img-fluid.logo-image {
-  /*left: 1rem;*/
-  /*top: 1rem;*/
+.uxSection {
+  padding-top: 0;
+}
+
+.form-control.is-invalid, .was-validated .form-control:invalid {
+  border-color: #ced4da!important;
 }
 
