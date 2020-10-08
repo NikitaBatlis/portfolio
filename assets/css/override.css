@@ -19,6 +19,18 @@
   padding-top: 0;
 }
 
+.photographySection {
+  padding-top: 0;
+}
+
+.gallerySection {
+  padding-top: 2rem;
+}
+
+.galleryContainer {
+  max-width: 1600px;
+}
+
 .form-control.is-invalid, .was-validated .form-control:invalid {
   border-color: #ced4da!important;
 }
