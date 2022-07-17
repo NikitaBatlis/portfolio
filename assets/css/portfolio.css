@@ -1,4 +1,81 @@
-.contact-clean {
+#wrapper {
+  padding: 2rem;
+}
+
+.menu-toggle {
+  position: fixed;
+  right: 1rem;
+  top: 1rem;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  color: #fff;
+  background: rgba(52, 58, 64, 1);
+  line-height: 50px;
+  z-index: 999;
+}
+
+.btn-white {
+  color: #212529;
+  background-color: #fff;
+  border-color: #212529;
+}
+.btn-white.focus,
+.btn-white:focus,
+.btn-white:hover {
+  color: #212529;
+  background-color: #f0f0f0;
+  border-color: #212529;
+}
+.btn-white.focus,
+.btn-white:focus {
+  box-shadow: 0 0 0 0.2rem hsla(220, 4%, 85%, 0.5);
+}
+.btn-white.disabled,
+.btn-white:disabled {
+  color: #212529;
+  background-color: #f8f9fa;
+  border-color: #212529;
+}
+.btn-white:not(:disabled):not(.disabled).active,
+.btn-white:not(:disabled):not(.disabled):active,
+.show > .btn-white.dropdown-toggle {
+  color: #212529;
+  background-color: #dae0e5;
+  border-color: #212529;
+}
+.btn-white:not(:disabled):not(.disabled).active:focus,
+.btn-white:not(:disabled):not(.disabled):active:focus,
+.show > .btn-white.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem hsla(220, 4%, 85%, 0.5);
+}
+
+/* .uxSection {
+  padding-top: 0;
+}
+
+.photographySection {
+  padding-top: 0;
+}
+
+.gallerySection {
+  padding-top: 2rem;
+} */
+
+/* .galleryContainer {
+  max-width: 1600px;
+} */
+
+.form-control.is-invalid,
+.was-validated .form-control:invalid {
+  border-color: #ced4da !important;
+}
+
+.projectHeadings {
+  font-size: 1.5rem !important;
+}
+
+/* .contact-clean {
   background: #f1f7fc;
   padding: 80px 0;
 }
@@ -86,4 +163,4 @@
   background-color: #343a40 !important;
   margin-top: 15px;
   color: #fff;
-}
+} */

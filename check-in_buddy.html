@@ -22,14 +22,17 @@
 
   <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon_16px.png">
   <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon_32px.png">
+
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
+  <link rel="stylesheet" href="assets/css/portfolio.css">
+
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Actor">
+  <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Actor"> -->
+  
   <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
   <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
   <link rel="stylesheet" href="assets/fonts/simple-line-icons.min.css">
-  <link rel="stylesheet" href="assets/css/override.css">
-  <link rel="stylesheet" href="assets/css/portfolio.css">
 </head>
 
 <body id="page-top" style="background-color:#f8f9fa;">
@@ -39,7 +42,7 @@
   <!-- End Google Tag Manager (noscript) -->
 
   <!--NAV MENU SIDE DRAWER -->
-  <nav class="navbar navbar-light navbar-expand bg-dark" id="sidebar-wrapper">
+  <nav class="navbar navbar-white navbar-expand bg-dark" id="sidebar-wrapper">
     <div class="container">
       <button data-toggle="collapse" class="navbar-toggler d-none" data-target="#"></button>
         <div class="collapse navbar-collapse">
@@ -65,44 +68,45 @@
       <div class="px-4 pt-5 my-5 text-center">
         <div class="content-section-heading text-center">
           <h3 class="text-dark mb-0">Web App</h3>
-          <h2 class="mb-5 text-dark" style="font-family: Actor, sans-serif;">Check-In Buddy</h2>
+          <h2 class="mb-5 text-dark">Check-In Buddy</h2>
+        </div>
+        <div class="container px-5">
+          <img src="assets/img/projects/cib/Check-In_Buddy_hero.png" class="img-fluid mx-auto mb-4" alt="Example image" width="90%" loading="lazy">
         </div>
         <div class="col-lg-6 mx-auto">
           <p class="lead mb-4">Digital check-in software that streamlines an accommodation front desk and enhances visitor experiences, while helping the hospitality industry safely navigate the tricky waters of a post-COVID-19 world.</p>
-        </div>
-        <div class="">
-          <div class="container px-5">
-            <img src="assets/img/projects/cib/Check-In_Buddy_hero.png" class="img-fluid mb-4" alt="Example image" width="90%" loading="lazy">
+          <p class="lead mb-4" style="font-weight: 500;">Production built in VueJS using TypeScript, TailwindCSS. <br> With a MySQL, NodeJS and NestJS backend </h3>
+          <div>
+            <a type="button" class="btn btn-white btn-lg rounded-pill px-4" href="https://www.checkinbuddy.travel/">View Live site</a>
           </div>
         </div>
+       
       </div>
     </header>
 
+
     <!--ABOUT -->
-      <div class="container text-center">
+      <!-- <div class="container text-center">
           <div class="row">
             <div class="col-lg-6 mx-auto">
-              <p class="lead mb-4">Production site built in Vuejs using TypeScript, TailwindCSS. With a MySQL, NodeJS and NestJS backend </h3>
-              <div>
-                <a type="button" class="btn btn-light btn-lg rounded-pill px-4" href="https://www.checkinbuddy.travel/">View Live site</a>
-              </div>
+
             </div>
           </div>
-      </div>
+      </div> -->
 
     <!--SKILLS -->
     <!-- <section id="skills" class="text-dark text-center" style="padding-top: 7.5rem; padding-bottom: 3.5rem; ">
         <div class="container">
             <div class="content-section-heading">
                 <h3 class="text-dark mb-0">SKILLS</h3>
-                <h2 class="mb-5" style="font-family: Actor, sans-serif;">What I do</h2>
+                <h2 class="mb-5">What I do</h2>
             </div>
             <div class="row">
                 <div class="col-md-6 col-lg-3 mb-5 mb-lg-0">
                   <span class="mx-auto service-icon rounded-circle mb-3"><i class="icon ion-code">
                     
                   </i></span>
-                    <h4><strong style="font-family: Actor, sans-serif;">Web Development</strong></h4>
+                    <h4><strong >Web Development</strong></h4>
                     <ul class="list-unstyled">
                         <li>HTML</li>
                         <li>CSS</li>
@@ -114,7 +118,7 @@
                 </div>
 
                 <div class="col-md-6 col-lg-3 mb-5 mb-lg-0" style="height: 300px;"><span class="mx-auto service-icon rounded-circle mb-3"><i class="icon-organization"></i></span>
-                    <h4><strong style="font-family: Actor, sans-serif;">UX/UI Design</strong></h4>
+                    <h4><strong >UX/UI Design</strong></h4>
                     <ul class="list-unstyled">
                         <li>Adobe UX</li>
                         <li>Adobe Illustrator</li>
@@ -127,7 +131,7 @@
                 </div>
 
                 <div class="col-md-6 col-lg-3 mb-5 mb-lg-0"><span class="mx-auto service-icon rounded-circle mb-3"><i class="icon icon-chart"></i></span>
-                    <h4><strong style="font-family: Actor, sans-serif;">Project Management</strong></h4>
+                    <h4><strong>Project Management</strong></h4>
                     <ul class="list-unstyled text-center">
                         <li>Team Coordination</li>
                         <li>Business Analysis</li>
@@ -139,7 +143,7 @@
 
                 <div class="col-md-6 col-lg-3 mb-5 mb-lg-0"><span class="mx-auto service-icon rounded-circle mb-3">
                   <i class="icon ion-camera"></i></span>
-                    <h4><strong style="font-family: Actor, sans-serif;">Photography</strong></h4>
+                    <h4><strong >Photography</strong></h4>
                     <ul class="list-unstyled">
                         <li>Adobe Lightroom</li>
                         <li>Adobe Photoshop</li>
@@ -154,14 +158,13 @@
     </section> -->
 
     <!--PORTFOLIO -->
-    <section id="portfolio" class="content-section bg-light">
+    <!-- <section id="portfolio" class="content-section bg-white">
 
       <div class="content-section-heading text-center">
         <h3 class="text-dark mb-0">Portfolio</h3>
-        <h2 class="mb-5" style="font-family: Actor, sans-serif;">Featured Work</h2>
+        <h2 class="mb-5">Featured Work</h2>
       </div>
 
-      <!--CHECK-IN BUDDY-->
       <div class="container my-5">
         <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center">
           <div class="col-lg-6 p-3 p-lg-5 pt-lg-3 content-section-heading text-dark">
@@ -171,7 +174,7 @@
             <p class="lead">Digital check-in software that streamlines an accommodation's front desk while helping the hospitality industry safely navigate the tricky waters of a post-COVID-19 world. </p>
             
             <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
-              <a type="button" class="btn btn-dark btn-lg rounded-pill px-4" target="_blank" href="check-in_buddy.html">View Case study</a>
+              <a type="button" class="btn btn-white btn-lg rounded-pill px-4" target="_blank" href="check-in_buddy.html">View Case study</a>
             </div>
           
           </div>
@@ -182,14 +185,15 @@
       </div>
 
 
-    </section>
+    </section> -->
+
       
     <!--RESUME DOWNLOAD BANNER-->
     <section id="resume" class="callout rounded-lg" style="background: url(assets/img/section2.png) center center / cover no-repeat; height: 750px; ">
         <div class="container text-center">
           <h2 class="text-dark mx-auto mb-5">Lets connect!</h2>
           <p class="lead mb-5"><span>Feel free to reach out for more information.</span></p>
-          <a id="contact" class="btn btn-light btn-lg rounded-pill btn-xl" role="button" target="_blank" href="mailto:nikita.batlis@live.com">Contact Me</a> <br>
+          <a id="contact" class="btn btn-white btn-lg rounded-pill btn-xl" role="button" target="_blank" href="mailto:nikita.batlis@live.com">Contact Me</a> <br>
           <a id="resumeDownload" class="btn btn-lg rounded-pill btn-xl" style="box-shadow: none !important ;" role="button" target="_blank" href="assets/img/Nikita_Batlis_Resume_FEB2021.pdf">Download Resume</a>
         </div>
     </section>
