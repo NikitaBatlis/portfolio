@@ -6264,7 +6264,7 @@ button.bg-dark:hover {
   border-radius: 50% !important;
 }
 .rounded-pill {
-  border-radius: 50rem !important;
+  border-radius: 5rem !important;
 }
 .rounded-0 {
   border-radius: 0 !important;
